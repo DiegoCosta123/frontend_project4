@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.background_img{
+    width: 1900px;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+}
+
+.squared_container{
+    position: absolute;
+    width: 24.1%;
+    height: 75%;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0px 4px 15px hsl(224, 23%, 55%);
+}
+
+#img_content{
+    position: absolute;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.title_paragraph{
+    position: relative;
+    text-align: center;
+    margin-top: 250px;
+}
+
+.title {
+    color: hsl(223, 47%, 23%);
+    font-family: 'Inter', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.paragraph{
+    position: absolute;
+    left: 50px;
+    right: 50px;
+    color: hsl(224, 23%, 55%);
+    font-family: sans-serif;
+    line-height: 25px;
+}
+
+.square_music{
+    position: absolute;
+    top: 250px;
+    bottom: 0;
+    left: 0;
+    right: 0%;
+    margin: auto;
+    width: 75%;
+    height: 13%;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+}
+
+.icon_music{
+    margin: 24px;
+}
+
+.text_value{
+    position: absolute;
+    bottom: 21px;
+    margin-left: 90px;
+}
+
+#title_content{
+    position: relative;
+    color: hsl(223, 47%, 23%);
+    font-family: 'Inter', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+    margin: 5px;
+}
+
+#value_content{
+    margin: 5px;
+    color: hsl(224, 23%, 55%);
+    font-family: sans-serif;
+}
+
+.hover_content{
+    position: absolute;
+    bottom: 17px;
+    right: 20px;
+    color: hsl(224, 23%, 55%);
+    font-family: 'Manrope', sans-serif;
+}
+
+#button{
+    position: absolute;
+    bottom: 100px;
+    width: 80%;
+    left: 45px;
+    border: none;
+    margin-top: 30px;
+    padding: 12px;
+    border: 1px solid hsl(247, 84%, 66%);
+    background-color: hsl(247, 84%, 66%);
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 4px 15px hsl(224, 23%, 55%);
+}
+
+#cancel_content{
+    position: absolute;
+    bottom: 35px;
+    left: 180px;
+    color: hsl(223, 47%, 23%);
+    font-family: 'Inter', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+}
+
