@@ -36,15 +36,15 @@ body{
 .title_paragraph{
     position: relative;
     text-align: center;
-    margin-top: 250px;
+    margin-top: 260px;
 }
 
 .title {
     color: hsl(223, 47%, 23%);
-    font-family: 'Inter', sans-serif;
-    font-family: 'Manrope', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Red Hat Display', sans-serif;
+    font-size: 28px;
+    margin: 1;
 }
 
 .paragraph{
@@ -54,16 +54,17 @@ body{
     color: hsl(224, 23%, 55%);
     font-family: sans-serif;
     line-height: 25px;
+    margin: 0;
 }
 
 .square_music{
     position: absolute;
-    top: 250px;
+    top: 220px;
     bottom: 0;
     left: 0;
     right: 0%;
     margin: auto;
-    width: 75%;
+    width: 79%;
     height: 13%;
     background-color: hsl(225, 100%, 98%);
     border-radius: 10px;
@@ -82,11 +83,8 @@ body{
 #title_content{
     position: relative;
     color: hsl(223, 47%, 23%);
-    font-family: 'Inter', sans-serif;
-    font-family: 'Manrope', sans-serif;
-    font-family: 'Poppins', sans-serif;
     font-family: 'Red Hat Display', sans-serif;
-    font-weight: bold;
+    font-weight: 800;
     margin: 5px;
 }
 
@@ -98,10 +96,11 @@ body{
 
 .hover_content{
     position: absolute;
-    bottom: 17px;
-    right: 20px;
+    bottom: 23px;
+    right: 22px;
     color: hsl(224, 23%, 55%);
     font-family: 'Manrope', sans-serif;
+    font-size: 13.8px;
 }
 
 #button{
@@ -111,25 +110,25 @@ body{
     left: 45px;
     border: none;
     margin-top: 30px;
-    padding: 12px;
+    padding: 13px;
     border: 1px solid hsl(247, 84%, 66%);
     background-color: hsl(247, 84%, 66%);
     font-family: 'Poppins', sans-serif;
     border-radius: 10px;
     color: white;
     font-weight: bold;
-    box-shadow: 0px 4px 15px hsl(224, 23%, 55%);
+    font-size: 15px;
+    /* box-shadow: 0px 4px 15px hsl(224, 23%, 55%); */
 }
 
-#cancel_content{
+#cancel_content {
     position: absolute;
-    bottom: 35px;
+    bottom: 55px;
     left: 180px;
+    margin: auto;
     color: hsl(223, 47%, 23%);
-    font-family: 'Inter', sans-serif;
-    font-family: 'Manrope', sans-serif;
     font-family: 'Poppins', sans-serif;
-    font-family: 'Red Hat Display', sans-serif;
     font-weight: bold;
+    font-size: 14.5px;
 }
 
